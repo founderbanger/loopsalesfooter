@@ -1,7 +1,7 @@
 window.onload = function(){
     $("#footerDiv").html(`<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148756277-2"></script>
-<script async=false>
+<script>
   $(window).on('load', function(){ /*code here*/ 
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -18,7 +18,7 @@ window.onload = function(){
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/founderbanger/feedback@latest/src/feedback.css"/>
 
         <!-- Screenshot Tool Script -->
-        <script type="text/javascript" async=false>
+        <script type="text/javascript">
           $(window).on('load', function(){ /*code here*/ 
                 $.feedback({
                     endpoint: "https://app.loop.best/campgrounds/5d76c57015012f0016a27fe1/comments",
