@@ -1,14 +1,11 @@
 window.onload = function(){
     
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-  $(window).on('load', function(){ /*code here*/ 
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-148756277-2');
-    });
 
 
   window.intercomSettings = {
