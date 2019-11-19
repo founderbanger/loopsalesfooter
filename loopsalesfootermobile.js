@@ -16,14 +16,3 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-
-
-try {
-  var e = document.createElement("style");
-  e.textContent = "@font-face { font-display: swap; }";
-  document.documentElement.appendChild(e);
-  var isFontDisplaySupported = e.sheet.cssRules[0].cssText.indexOf("font-display") != -1;
-  e.remove();
-} catch (e) {
-  // Do something with an error if you want
-}
