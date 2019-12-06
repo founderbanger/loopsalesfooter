@@ -23,7 +23,7 @@ function detectmob() {
 }
 var is_mobile = detectmob();
 
-if (is_mobile == true) {
+if (is_mobile == false) {
   window.intercomSettings = {
     app_id: "qgjl682x",
     //hide_default_launcher: is_mobile
