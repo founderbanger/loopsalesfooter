@@ -24,7 +24,7 @@ function detectmob() {
 var is_mobile = detectmob();
 
 if (is_mobile == false) {
-  $('body').append('<script type=“text/javascript” id=“hs-script-loader” async defer src=“//js.hs-scripts.com/7620719.js”></script>')
+  $('body').append(`<script type=“text/javascript” id=“hs-script-loader” async defer src=“//js.hs-scripts.com/7620719.js”></script>`)
  /* window.intercomSettings = {
     app_id: "qgjl682x",
     //hide_default_launcher: is_mobile
